@@ -2,7 +2,7 @@
 
 ## What is this
 
-This is basically a fork of [https://github.com/pravic/winapi-kmd-rs](winapi-kmd-rs), with some additional bindings
+This is basically a fork of [winapi-kmd-rs](https://github.com/pravic/winapi-kmd-rs), with some additional bindings
 because I needed them and a bit of sugar (using the `?` operator on NTSTATUS and iterating over devices) because I
 wanted them.
 
