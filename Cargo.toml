@@ -1,0 +1,15 @@
+[package]
+name = "kmd"
+version = "0.1.0"
+
+[lib]
+name = "kmd"
+crate-type = ["rlib"]
+
+[profile.release]
+opt-level = 3
+debug = true
+rpath = false
+lto = true
+debug-assertions = false
+codegen-units = 4
